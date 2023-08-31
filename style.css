@@ -1,0 +1,40 @@
+.daydiv{
+   margin-top: 50px;
+   margin-left: 600px;
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   justify-content: center;
+   align-items: center;
+   height: 50px;    
+   width: 300px;
+
+}
+.day{
+   display: flex;
+   font-family: sans-serif;
+   color: black;
+   align-items: center;
+   justify-content: center;
+}
+.datediv{
+    margin-left: 600px;
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    color: darkgrey;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    width: 300px;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid grey;
+    font-family: sans-serif;
+}
+#datasel{
+    color: white;
+    background-color: aqua;
+}
